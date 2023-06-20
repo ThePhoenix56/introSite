@@ -1,8 +1,3 @@
-
-function onClick() {
-    navigator.clipboard.writeText("Phoenix56#1208");
-}
-
 document.addEventListener('DOMContentLoaded',function(event){
    
     var dataText = [ "Hi! I'm Phoenix56." ];
@@ -13,7 +8,7 @@ document.addEventListener('DOMContentLoaded',function(event){
 
         setTimeout(function() {
           skrivUt(text, i + 1, fnCallback)
-        }, 100);
+        }, 220);
       }
 
       else if (typeof fnCallback == 'function') {
@@ -24,7 +19,7 @@ document.addEventListener('DOMContentLoaded',function(event){
        if (typeof dataText[i] == 'undefined'){
           setTimeout(function() {
             StartTextAnimation(0);
-          }, 20000);
+          }, 40000);
        }
       if (i < dataText[i].length) {
        skrivUt(dataText[i], 0, function(){
